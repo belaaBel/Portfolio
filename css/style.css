@@ -66,6 +66,7 @@ body {
   border-radius: 5px 5px 10px 10px;
   border: none;
   max-width: 100%;
+  cursor: pointer;
 }
 
 .hero-avatar {
@@ -303,6 +304,7 @@ body {
   border-radius: 50%;
   display: inline-block;
   margin-right: 10px;
+  cursor: pointer;
 }
 
 .swiper-bullet-active {
