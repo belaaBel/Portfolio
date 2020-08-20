@@ -65,6 +65,7 @@ body {
   box-shadow: 0px 4px 0px #B68500;
   border-radius: 5px 5px 10px 10px;
   border: none;
+  max-width: 100%;
 }
 
 .hero-avatar {
@@ -73,9 +74,10 @@ body {
   background-color: #ffffff;
   border: 10px solid #B68500;
   border-radius: 50%;
-  background-image: url("../img/belugina.png");
+  background-image: url("../img/bel.jpg");
+  background-size: 389px;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center top 10px right 100px;
 }
 
 .features {
@@ -135,7 +137,6 @@ body {
   box-shadow: -5px 5px 0px #FFC41D;
   border-radius: 5px;
   padding: 40px 48px 49px;
-  max-width: 284px;
   margin: 0px;
   display: flex;
   flex-direction: column;
@@ -149,6 +150,7 @@ body {
   margin: 0px;
   margin-bottom: 29px;
   text-align: center;
+  width: 100%;
 }
 
 .contacts-form input {
@@ -159,6 +161,9 @@ body {
   border: none;
   box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
   border-radius: 5px;
+  padding-bottom: 18px;
+  padding-top: 18px;
+  width: 100%;
 }
 
 .contacts-form .input-user {
@@ -219,4 +224,87 @@ body {
   line-height: 18px;
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
+}
+
+.projects {
+  padding-top: 126px;
+  padding-bottom: 108px;
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 95.44%);
+}
+
+.project-img img {
+  border-radius: 6px;
+  align-self: flex-start;
+  object-fit: cover;
+}
+
+.project-box {
+  margin-top: 76px;
+  display: flex;
+}
+
+.project-text {
+  margin-left: 65px;
+}
+
+.project-text h6 {
+  margin: 0;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.cost {
+  margin-left: 64px;
+}
+
+.time, .cost, .feelback {
+  margin-top: 44px;
+  display: flex;
+}
+
+.time-text > h6, .cost-text > h6, .feelback-text > h6 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  margin-left: 16px;
+}
+
+.time-text > p, .cost-text > p, .feelback-text > p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 19px;
+  margin-left: 16px;
+}
+
+.feelback-text > p {
+  max-width: 481px;
+}
+
+.project-text-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.feelback {
+  flex-basis: 100%;
+}
+
+.project-pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 44px;
+}
+
+.swiper-bullet {
+  width: 10px;
+  height: 10px;
+  border: 2px solid #FFBB01;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.swiper-bullet-active {
+  background: #FFBB01;
 }
